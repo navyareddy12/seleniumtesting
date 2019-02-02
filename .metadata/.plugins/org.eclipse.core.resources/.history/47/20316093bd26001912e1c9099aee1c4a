@@ -1,0 +1,4 @@
+WinWaitActive( "Open" )
+ControlClick( "Open", "Desktop", "SysTreeView321")
+ControlSend( "Open", " ", "DirectUIHWND2", "image.png" )
+ControlClick( "Open", " ", "Button1" )

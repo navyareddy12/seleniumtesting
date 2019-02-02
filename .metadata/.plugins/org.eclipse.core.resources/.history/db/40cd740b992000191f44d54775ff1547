@@ -1,0 +1,23 @@
+package orhm;
+
+import java.io.FileInputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Test {
+ @Test
+	public void login()
+	{
+	FileInputStream file=new FileInputStream("C:\\Users\\user\\eclipse-workspace\\mounika\\src\\register\\ss.xlsx");
+	XSSFWorkbook workbook=new XSSFWorkbook(file);
+	XSSFSheet sheet=workbook.getSheet("sheet1");
+	}
+
+elseif(keyword.equals("enterpassword"))
+			{
+				keys.password();
+				
+				
+			}		
+}

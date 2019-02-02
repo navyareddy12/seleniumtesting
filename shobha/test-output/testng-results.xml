@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37116" started-at="2019-02-02T08:19:19Z" finished-at="2019-02-02T08:19:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37116" started-at="2019-02-02T08:19:19Z" finished-at="2019-02-02T08:19:56Z">
+      <class name="com.autoit.Downloadfile">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.autoit.Downloadfile@13fee20c]" name="setup" is-config="true" duration-ms="34893" started-at="2019-02-02T13:49:19Z" finished-at="2019-02-02T13:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="filedownload()[pri:0, instance:com.autoit.Downloadfile@13fee20c]" name="filedownload" duration-ms="2203" started-at="2019-02-02T13:49:54Z" finished-at="2019-02-02T13:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filedownload -->
+      </class> <!-- com.autoit.Downloadfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,43 @@
+package swetha.sruthi;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class Hhhhhhhh {
+		WebDriver driver=null;
+		String url="https://opensource-demo.orangehrmlive.com/";
+	@BeforeTest()
+	public void lauchbroswer()
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\eclipse-workspace\\mounika\\driver1\\chromedriver.exe");
+		driver=new ChromeDriver();
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
+	}
+	@Test
+	public void navigate()
+	{
+
+		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+		//<input name="txtUsername" id="txtUsername" type="text">
+		//<input name="txtPassword" id="txtPassword" autocomplete="off" type="password">
+		//<input type="submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
+		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		driver.findElement(By.id("btnLogin")).click();
+	}
+	@AfterTest
+	public void teardown()
+	{
+		driver.close();
+	}
+
+
+
+}

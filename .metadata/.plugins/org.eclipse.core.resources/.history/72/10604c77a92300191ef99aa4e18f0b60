@@ -1,0 +1,7 @@
+<suite name="login">
+ <test name="login">
+  <classes>
+	<class name="com.grid.OHRM_newtours"/>
+   </classes>
+ </test>
+</suite>

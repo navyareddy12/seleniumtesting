@@ -1,0 +1,7 @@
+<suite name="ohrm"> 
+<test name="login">
+<classes>
+<class name="Ohrm.Login"/>
+</classes>
+</test>
+</suite>

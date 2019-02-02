@@ -1,0 +1,16 @@
+<suite name="ohrm login">
+ <test name="on firefox">
+   <parameter name="Browser" value="firefox"/>
+  <classes>
+	<class name="com.grid.OHRM_newtours"/>
+   </classes>
+ </test>
+
+
+<test name="on chrome">
+   <parameter name="Browser" value="chrome"/>
+  <classes>
+	<class name="com.grid.OHRM_newtours"/>
+   </classes>
+ </test>
+</suite>

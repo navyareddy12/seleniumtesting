@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.grid.OHRM_newtours">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.grid.OHRM_newtours -->
+      <class name="com.test.Simple_OHRM_Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.test.Simple_OHRM_Login -->
+      <class name="com.autoit.Uploadimage">
+        <methods>
+          <include name="uploadfile"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- com.autoit.Uploadimage -->
+      <class name="com.POMframework.Newtourshomepagetesting">
+        <methods>
+          <include name="homepage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.POMframework.Newtourshomepagetesting -->
+      <class name="com.test.Ohrmlogin">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.Ohrmlogin -->
+      <class name="com.ohrmtestscripts.Logintest">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.ohrmtestscripts.Logintest -->
+      <class name="com.test.Gmaillogin">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.Gmaillogin -->
+      <class name="com.test.Newprogram">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.test.Newprogram -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

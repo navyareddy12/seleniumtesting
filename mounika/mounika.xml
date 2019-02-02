@@ -1,0 +1,8 @@
+<suite name="ohrm"> 
+<test name="login">
+<parameter name="browser" value="chrome"/>
+<classes>
+<class name="Ohrm.Login"/>
+</classes>
+</test>
+</suite>

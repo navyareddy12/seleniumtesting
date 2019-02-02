@@ -1,0 +1,12 @@
+<suite name="ohrm login">
+ <test name="login">
+  <classes>
+	<class name="com.keyworddriven.Loginkeyword"/>
+   </classes>
+ </test>
+ <test name="registration">
+  <classes>
+	<class name="com.test.Gmaillogin"/>
+    </classes>
+ </test>
+</suite>

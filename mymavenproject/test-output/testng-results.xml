@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50307" started-at="2019-02-01T09:16:09Z" finished-at="2019-02-01T09:16:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50307" started-at="2019-02-01T09:16:09Z" finished-at="2019-02-01T09:16:59Z">
+      <class name="Ohrmlogin.mymavenproject.OHRMlogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Ohrmlogin.mymavenproject.OHRMlogin@11758f2a]" name="setup" is-config="true" duration-ms="37729" started-at="2019-02-01T14:46:09Z" finished-at="2019-02-01T14:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Ohrmlogin.mymavenproject.OHRMlogin@11758f2a]" name="login" duration-ms="1223" started-at="2019-02-01T14:46:46Z" finished-at="2019-02-01T14:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Ohrmlogin.mymavenproject.OHRMlogin@11758f2a]" name="teardown" is-config="true" duration-ms="11311" started-at="2019-02-01T14:46:48Z" finished-at="2019-02-01T14:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Ohrmlogin.mymavenproject.OHRMlogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

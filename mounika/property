@@ -1,0 +1,6 @@
+# username element
+username=txtUsername
+# password element
+password=txtPassword
+# submit element
+submit=btnLogin

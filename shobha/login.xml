@@ -1,0 +1,12 @@
+<suite name="login">
+ <test name="login functionality">
+  <classes>
+	<class name="com.test.Simple_OHRM_Login"/>
+   </classes>
+ </test>
+ <test name="registration">
+  <classes>
+	<class name="com.POMframework.Newtourshomepagetesting"/>
+    </classes>
+ </test>
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [login]">
+  <test name="login(failed)">
+    <classes>
+      <class name="com.grid.OHRM_newtours">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.grid.OHRM_newtours -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [login] -->
